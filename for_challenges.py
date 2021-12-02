@@ -69,7 +69,8 @@ groups = [
 ]
 
 for index, gr in enumerate(groups):
-    students_list = ""
-    for students in gr:
-        students_list += students + ', '
-    print(f'Группа {index + 1}: {students_list[:-2]}')
+    #students_list = ""
+    #for students in gr:
+    #    students_list += students + ', '
+    # print(f'Группа {index + 1}: {students_list[:-2]}')
+    print(f'Группа {index + 1}: {"; ".join(gr)}')
